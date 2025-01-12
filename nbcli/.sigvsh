@@ -1,0 +1,296 @@
+#!/bin/bash
+
+# Quit sigv standalone
+function qs() {
+  killall sigv
+}
+
+## o-sigv operators ##
+function oanim() {
+  cat "$HOME/sigv/nbcli/osigv/oanim"
+}
+function oaudio() {
+  cat "$HOME/sigv/nbcli/osigv/oaudio"
+}
+function ochao() {
+  cat "$HOME/sigv/nbcli/osigv/obuff"
+}
+function ochao() {
+  cat "$HOME/sigv/nbcli/osigv/ochao"
+}
+function olights() {
+  cat "$HOME/sigv/nbcli/osigv/olights"
+}
+function omat() {
+  cat "$HOME/sigv/nbcli/osigv/omat"
+}
+function oserial() {
+  cat "$HOME/sigv/nbcli/osigv/oserial"
+}
+function osystem() {
+  cat "$HOME/sigv/nbcli/osigv/osystem"
+}
+function otrans() {
+  cat "$HOME/sigv/nbcli/osigv/otrans"
+}
+
+## Reset sigv
+function rst() {
+  $HOME/sigv/nbcli/max/rst "$@"
+  }
+
+## sigv messengers
+function eca() {
+  $HOME/sigv/nbcli/max/eca "$@"
+  }
+function aio() {
+  $HOME/sigv/nbcli/max/aio "$@" 
+  }
+function b0() {
+  $HOME/sigv/nbcli/max/b0 "$@" 
+  }
+function b1() {
+  $HOME/sigv/nbcli/max/b1 "$@" 
+  }
+function b2() {
+  $HOME/sigv/nbcli/max/b2 "$@" 
+  }
+function b3() {
+  $HOME/sigv/nbcli/max/b3 "$@" 
+  }
+function b4() {
+  $HOME/sigv/nbcli/max/b4 "$@"
+  }
+function b5() {
+  $HOME/sigv/nbcli/max/b5 "$@"
+  }
+function b6() {
+  $HOME/sigv/nbcli/max/b6 "$@"
+  }
+function b7() {
+  $HOME/sigv/nbcli/max/b7 "$@"
+  }
+function bfg() {
+  $HOME/sigv/nbcli/max/bfg "$@" 
+  }
+function biomes() {
+  $HOME/sigv/nbcli/max/biomes "$@" 
+  }
+function camera() {
+  $HOME/sigv/nbcli/max/camera "$@" 
+  }
+function cv() {
+  $HOME/sigv/nbcli/max/cv "$@" 
+  }
+function fpic() {
+  $HOME/sigv/nbcli/max/fpic "$@" 
+  }
+function frag() {
+  $HOME/sigv/nbcli/max/frag "$@"
+  }
+function fx() {
+  $HOME/sigv/nbcli/max/fx "$@" 
+  }
+function geo() {
+  $HOME/sigv/nbcli/max/geo "$@" 
+  }
+function grain() {
+  $HOME/sigv/nbcli/max/grain "$@" 
+  }
+function graph() {
+  $HOME/sigv/nbcli/max/graph "$@" 
+  }
+function lfo() {
+  $HOME/sigv/nbcli/max/lfo "$@" 
+  }
+function light() {
+  $HOME/sigv/nbcli/max/light "$@" 
+  }
+function lz() {
+  $HOME/sigv/nbcli/max/lz "$@" 
+  }
+function lttp() {
+  $HOME/sigv/nbcli/max/lttp "$@" 
+  }
+function markov() {
+  $HOME/sigv/nbcli/max/markov "$@" 
+  }
+function midi() {
+  $HOME/sigv/nbcli/max/midi "$@" 
+  }
+function model() {
+  $HOME/sigv/nbcli/max/model "$@" 
+  }
+function monde() {
+  $HOME/sigv/nbcli/max/monde "$@" 
+  }
+function morph() {
+  $HOME/sigv/nbcli/max/morph "$@" 
+  }
+function morph0() {
+  $HOME/sigv/nbcli/max/morph0 "$@" 
+  }
+function morph0() {
+  $HOME/sigv/nbcli/max/morph0 "$@" 
+  }
+function morpha() {
+  $HOME/sigv/nbcli/max/morpha "$@" 
+  }
+function morph3() {
+  $HOME/sigv/nbcli/max/morph3 "$@" 
+  }
+function nature() {
+  $HOME/sigv/nbcli/max/nature "$@" 
+  }
+function new() {
+  $HOME/sigv/nbcli/max/new "$@" 
+  }
+function nurbs() {
+  $HOME/sigv/nbcli/max/nurbs "$@" 
+  }
+function particles() {
+  $HOME/sigv/nbcli/max/particles "$@" 
+  }
+function plato() {
+  $HOME/sigv/nbcli/max/plato "$@" 
+  }
+function proc() {
+  $HOME/sigv/nbcli/max/proc "$@" 
+  }
+function rossler() {
+  $HOME/sigv/nbcli/max/rossler "$@" 
+  }
+function shady() {
+  $HOME/sigv/nbcli/max/shady "$@"
+  }
+function sketch() {
+  $HOME/sigv/nbcli/max/sketch "$@" 
+  }
+function sky() {
+  $HOME/sigv/nbcli/max/sky "$@" 
+  }
+function som() {
+  $HOME/sigv/nbcli/max/som "$@" 
+  }
+function specs() {
+  $HOME/sigv/nbcli/max/specs "$@" 
+  }
+function spk() {
+  $HOME/sigv/nbcli/max/spk "$@" 
+  }
+function synth() {
+  $HOME/sigv/nbcli/max/synth "$@" 
+  }
+function terra() {
+  $HOME/sigv/nbcli/max/terra "$@" 
+  }
+function ~() {
+  $HOME/sigv/nbcli/max/~ "$@" 
+  }
+function tilde() {
+  $HOME/sigv/nbcli/max/tilde "$@"
+  }
+function vert() {
+  $HOME/sigv/nbcli/max/vert "$@"
+  }
+function wave() {
+  $HOME/sigv/nbcli/max/wave "$@" 
+  }
+function wrld() {
+  $HOME/sigv/nbcli/max/wrld "$@" 
+  }
+
+## sigv cli
+function sigv() {
+  $HOME/sigv/nbcli/sigv "$@"
+}
+
+## Utilities
+### Clear history buffer
+function clearbuff() {
+  clear && fc -p
+}
+
+### Scan/Read a file
+function rfi() {
+  $HOME/sigv/nbcli/rfi "$@"
+}
+
+### Window Title
+function window() {
+  echo -n -e "\033]0;$1\007"
+}
+
+### Random Password Generator
+function rpg() {
+  date | md5 | head -c $1 | pbcopy ; echo
+  echo "copied to clipboard..."
+}
+
+### QR code utils
+function qr() {
+  if [[ "$1" == "-r" ]]
+  then
+    zbarimg $2
+  else
+    qrencode $1 -o $2
+  fi
+}
+
+### History of commands
+function histo() {
+  history | cut -c 8-
+}
+
+## Systems Elements
+function s() { 
+  $HOME/sigv/nbcli/max/s "$*" 
+  }
+function zap() { 
+  s sys script delete "$@" 
+  }
+function o() { 
+  $HOME/sigv/nbcli/o "$@" 
+  }
+function shiftr() { 
+	$HOME/sigv/nbcli/shiftr "$*" 
+}
+
+## nbcli Core Elements
+function automata() {
+	$HOME/sigv/nbcli/automata "$@" & 
+}
+function timer() {
+	$HOME/sigv/nbcli/timer "$@" 
+}
+function rand() {
+	$HOME/sigv/nbcli/rand "$@" 
+}
+function randx() {
+	$HOME/sigv/nbcli/randx "$@" 
+}
+function count() {
+	$HOME/sigv/nbcli/count "$@" 
+}
+function gen() {
+	$HOME/sigv/nbcli/gen "$@" & 
+}
+function rnr() {
+	$HOME/sigv/nbcli/rnr "$@" 
+}
+function rsr() {
+	$HOME/sigv/nbcli/rsr "$@" 
+}
+
+function qrec() {
+  if [[ "$1" == "-s" ]]
+  then
+  osascript -e 'tell application "QuickTime Player" to activate' -e 'tell application "QuickTime Player" to start (new screen recording)'
+  else
+  osascript -e 'tell application "QuickTime Player" to activate' -e 'tell application "QuickTime Player" to start (new audio recording)'
+  fi
+}
+
+export PATH=$PATH:$HOME/sigv/nbcli:$HOME/sigv/nbcli/max
+
+

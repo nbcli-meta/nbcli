@@ -1,0 +1,3 @@
+#!/bin/bash
+
+o "select:51;22" && o "write:H" && o "select:51;23" && o "write:E" && o "select:51;24" && o "write:j"

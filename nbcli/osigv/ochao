@@ -1,0 +1,16 @@
+| ∞ | CHAO | Notation |
+| --- | --- | --- |
+| s | lz sample | ∞ s |
+| 1 | lz activate | ∞ 1 |
+| p | lz particles dim | ∞ p 7 7 |
+| e | lz ^ equation | ∞ e |
+| a | lz a value | ∞ a 4 |
+| b | lz b value | ∞ b a |
+| c | lz c value | ∞ c 1 |
+| d | lz dt value | ∞ d 0 |
+| i | lz data value | ∞ i 0 0 7 |
+|  |  |  |
+
+
+The ∞ chao commands sequence a set of preset instructions for the Lorenz attractor command and shader.
+

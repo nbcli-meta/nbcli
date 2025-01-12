@@ -1,0 +1,17 @@
+#!/bin/bash
+
+if [[ "$1" == "--config" ]]
+  then
+    nano $HOME/sigv/nbcli/.sigvsh
+  elif [[ "$1" == "-b" ]]
+  then
+    cd $HOME/sigv/nbcli && ls
+  else
+    echo "Options: sigv --config [open .sigvsh configuration] -b [go to nbcli directory]"
+    echo " "
+    echo "sigv: an instrument and mini-language for transmodal live coding"
+    echo "https://magfoto.itch.io/sigv"
+    open /Applications/sigv.app
+    cd "$HOME/sigv/nbcli/"
+  fi
+  
