@@ -1,5 +1,10 @@
 #!/bin/bash
 
+function nbcli() {
+  cd "$HOME/sigv/nbcli"
+  ls
+}
+
 # Quit sigv standalone
 function qs() {
   killall sigv
@@ -40,6 +45,9 @@ function rst() {
   }
 
 ## sigv messengers
+function typo() {
+  $HOME/sigv/nbcli/max/typo "$@"
+  }
 function eca() {
   $HOME/sigv/nbcli/max/eca "$@"
   }
