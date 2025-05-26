@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function nbcli() {
-  cd "$HOME/sigv/nbcli"
+  cd "$HOME/nbcli-config/nbcli"
   ls
 }
 
@@ -12,205 +12,205 @@ function qs() {
 
 ## o-sigv operators ##
 function oanim() {
-  cat "$HOME/sigv/nbcli/osigv/oanim"
+  cat "$HOME/nbcli-config/nbcli/osigv/oanim"
 }
 function oaudio() {
-  cat "$HOME/sigv/nbcli/osigv/oaudio"
+  cat "$HOME/nbcli-config/nbcli/osigv/oaudio"
 }
 function ochao() {
-  cat "$HOME/sigv/nbcli/osigv/obuff"
+  cat "$HOME/nbcli-config/nbcli/osigv/obuff"
 }
 function ochao() {
-  cat "$HOME/sigv/nbcli/osigv/ochao"
+  cat "$HOME/nbcli-config/nbcli/osigv/ochao"
 }
 function olights() {
-  cat "$HOME/sigv/nbcli/osigv/olights"
+  cat "$HOME/nbcli-config/nbcli/osigv/olights"
 }
 function omat() {
-  cat "$HOME/sigv/nbcli/osigv/omat"
+  cat "$HOME/nbcli-config/nbcli/osigv/omat"
 }
 function oserial() {
-  cat "$HOME/sigv/nbcli/osigv/oserial"
+  cat "$HOME/nbcli-config/nbcli/osigv/oserial"
 }
 function osystem() {
-  cat "$HOME/sigv/nbcli/osigv/osystem"
+  cat "$HOME/nbcli-config/nbcli/osigv/osystem"
 }
 function otrans() {
-  cat "$HOME/sigv/nbcli/osigv/otrans"
+  cat "$HOME/nbcli-config/nbcli/osigv/otrans"
 }
 
 ## Reset sigv
 function rst() {
-  $HOME/sigv/nbcli/max/rst "$@"
+  $HOME/nbcli-config/nbcli/max/rst "$@"
   }
 
 ## sigv messengers
 function typo() {
-  $HOME/sigv/nbcli/max/typo "$@"
+  $HOME/nbcli-config/nbcli/max/typo "$@"
   }
 function eca() {
-  $HOME/sigv/nbcli/max/eca "$@"
+  $HOME/nbcli-config/nbcli/max/eca "$@"
   }
 function aio() {
-  $HOME/sigv/nbcli/max/aio "$@" 
+  $HOME/nbcli-config/nbcli/max/aio "$@" 
   }
 function b0() {
-  $HOME/sigv/nbcli/max/b0 "$@" 
+  $HOME/nbcli-config/nbcli/max/b0 "$@" 
   }
 function b1() {
-  $HOME/sigv/nbcli/max/b1 "$@" 
+  $HOME/nbcli-config/nbcli/max/b1 "$@" 
   }
 function b2() {
-  $HOME/sigv/nbcli/max/b2 "$@" 
+  $HOME/nbcli-config/nbcli/max/b2 "$@" 
   }
 function b3() {
-  $HOME/sigv/nbcli/max/b3 "$@" 
+  $HOME/nbcli-config/nbcli/max/b3 "$@" 
   }
 function b4() {
-  $HOME/sigv/nbcli/max/b4 "$@"
+  $HOME/nbcli-config/nbcli/max/b4 "$@"
   }
 function b5() {
-  $HOME/sigv/nbcli/max/b5 "$@"
+  $HOME/nbcli-config/nbcli/max/b5 "$@"
   }
 function b6() {
-  $HOME/sigv/nbcli/max/b6 "$@"
+  $HOME/nbcli-config/nbcli/max/b6 "$@"
   }
 function b7() {
-  $HOME/sigv/nbcli/max/b7 "$@"
+  $HOME/nbcli-config/nbcli/max/b7 "$@"
   }
 function bfg() {
-  $HOME/sigv/nbcli/max/bfg "$@" 
+  $HOME/nbcli-config/nbcli/max/bfg "$@" 
   }
 function biomes() {
-  $HOME/sigv/nbcli/max/biomes "$@" 
+  $HOME/nbcli-config/nbcli/max/biomes "$@" 
   }
 function camera() {
-  $HOME/sigv/nbcli/max/camera "$@" 
+  $HOME/nbcli-config/nbcli/max/camera "$@" 
   }
 function cv() {
-  $HOME/sigv/nbcli/max/cv "$@" 
+  $HOME/nbcli-config/nbcli/max/cv "$@" 
   }
 function fpic() {
-  $HOME/sigv/nbcli/max/fpic "$@" 
+  $HOME/nbcli-config/nbcli/max/fpic "$@" 
   }
 function frag() {
-  $HOME/sigv/nbcli/max/frag "$@"
+  $HOME/nbcli-config/nbcli/max/frag "$@"
   }
 function fx() {
-  $HOME/sigv/nbcli/max/fx "$@" 
+  $HOME/nbcli-config/nbcli/max/fx "$@" 
   }
 function geo() {
-  $HOME/sigv/nbcli/max/geo "$@" 
+  $HOME/nbcli-config/nbcli/max/geo "$@" 
   }
 function grain() {
-  $HOME/sigv/nbcli/max/grain "$@" 
+  $HOME/nbcli-config/nbcli/max/grain "$@" 
   }
 function graph() {
-  $HOME/sigv/nbcli/max/graph "$@" 
+  $HOME/nbcli-config/nbcli/max/graph "$@" 
   }
 function lfo() {
-  $HOME/sigv/nbcli/max/lfo "$@" 
+  $HOME/nbcli-config/nbcli/max/lfo "$@" 
   }
 function light() {
-  $HOME/sigv/nbcli/max/light "$@" 
+  $HOME/nbcli-config/nbcli/max/light "$@" 
   }
 function lz() {
-  $HOME/sigv/nbcli/max/lz "$@" 
+  $HOME/nbcli-config/nbcli/max/lz "$@" 
   }
 function lttp() {
-  $HOME/sigv/nbcli/max/lttp "$@" 
+  $HOME/nbcli-config/nbcli/max/lttp "$@" 
   }
 function markov() {
-  $HOME/sigv/nbcli/max/markov "$@" 
+  $HOME/nbcli-config/nbcli/max/markov "$@" 
   }
 function midi() {
-  $HOME/sigv/nbcli/max/midi "$@" 
+  $HOME/nbcli-config/nbcli/max/midi "$@" 
   }
 function model() {
-  $HOME/sigv/nbcli/max/model "$@" 
+  $HOME/nbcli-config/nbcli/max/model "$@" 
   }
 function monde() {
-  $HOME/sigv/nbcli/max/monde "$@" 
+  $HOME/nbcli-config/nbcli/max/monde "$@" 
   }
 function morph() {
-  $HOME/sigv/nbcli/max/morph "$@" 
+  $HOME/nbcli-config/nbcli/max/morph "$@" 
   }
 function morph0() {
-  $HOME/sigv/nbcli/max/morph0 "$@" 
+  $HOME/nbcli-config/nbcli/max/morph0 "$@" 
   }
 function morph0() {
-  $HOME/sigv/nbcli/max/morph0 "$@" 
+  $HOME/nbcli-config/nbcli/max/morph0 "$@" 
   }
 function morpha() {
-  $HOME/sigv/nbcli/max/morpha "$@" 
+  $HOME/nbcli-config/nbcli/max/morpha "$@" 
   }
 function morph3() {
-  $HOME/sigv/nbcli/max/morph3 "$@" 
+  $HOME/nbcli-config/nbcli/max/morph3 "$@" 
   }
 function nature() {
-  $HOME/sigv/nbcli/max/nature "$@" 
+  $HOME/nbcli-config/nbcli/max/nature "$@" 
   }
 function new() {
-  $HOME/sigv/nbcli/max/new "$@" 
+  $HOME/nbcli-config/nbcli/max/new "$@" 
   }
 function nurbs() {
-  $HOME/sigv/nbcli/max/nurbs "$@" 
+  $HOME/nbcli-config/nbcli/max/nurbs "$@" 
   }
 function particles() {
-  $HOME/sigv/nbcli/max/particles "$@" 
+  $HOME/nbcli-config/nbcli/max/particles "$@" 
   }
 function plato() {
-  $HOME/sigv/nbcli/max/plato "$@" 
+  $HOME/nbcli-config/nbcli/max/plato "$@" 
   }
 function proc() {
-  $HOME/sigv/nbcli/max/proc "$@" 
+  $HOME/nbcli-config/nbcli/max/proc "$@" 
   }
 function rossler() {
-  $HOME/sigv/nbcli/max/rossler "$@" 
+  $HOME/nbcli-config/nbcli/max/rossler "$@" 
   }
 function shady() {
-  $HOME/sigv/nbcli/max/shady "$@"
+  $HOME/nbcli-config/nbcli/max/shady "$@"
   }
 function sketch() {
-  $HOME/sigv/nbcli/max/sketch "$@" 
+  $HOME/nbcli-config/nbcli/max/sketch "$@" 
   }
 function sky() {
-  $HOME/sigv/nbcli/max/sky "$@" 
+  $HOME/nbcli-config/nbcli/max/sky "$@" 
   }
 function som() {
-  $HOME/sigv/nbcli/max/som "$@" 
+  $HOME/nbcli-config/nbcli/max/som "$@" 
   }
 function specs() {
-  $HOME/sigv/nbcli/max/specs "$@" 
+  $HOME/nbcli-config/nbcli/max/specs "$@" 
   }
 function spk() {
-  $HOME/sigv/nbcli/max/spk "$@" 
+  $HOME/nbcli-config/nbcli/max/spk "$@" 
   }
 function synth() {
-  $HOME/sigv/nbcli/max/synth "$@" 
+  $HOME/nbcli-config/nbcli/max/synth "$@" 
   }
 function terra() {
-  $HOME/sigv/nbcli/max/terra "$@" 
+  $HOME/nbcli-config/nbcli/max/terra "$@" 
   }
-function ~() {
-  $HOME/sigv/nbcli/max/~ "$@" 
-  }
+# function ~() {
+#   $HOME/nbcli-config/nbcli/max/~ "$@" 
+#   }
 function tilde() {
-  $HOME/sigv/nbcli/max/tilde "$@"
+  $HOME/nbcli-config/nbcli/max/tilde "$@"
   }
 function vert() {
-  $HOME/sigv/nbcli/max/vert "$@"
+  $HOME/nbcli-config/nbcli/max/vert "$@"
   }
 function wave() {
-  $HOME/sigv/nbcli/max/wave "$@" 
+  $HOME/nbcli-config/nbcli/max/wave "$@" 
   }
 function wrld() {
-  $HOME/sigv/nbcli/max/wrld "$@" 
+  $HOME/nbcli-config/nbcli/max/wrld "$@" 
   }
 
 ## sigv cli
 function sigv() {
-  $HOME/sigv/nbcli/sigv "$@"
+  $HOME/nbcli-config/nbcli/sigv "$@"
 }
 
 ## Utilities
@@ -221,7 +221,7 @@ function clearbuff() {
 
 ### Scan/Read a file
 function rfi() {
-  $HOME/sigv/nbcli/rfi "$@"
+  $HOME/nbcli-config/nbcli/rfi "$@"
 }
 
 ### Window Title
@@ -252,42 +252,42 @@ function histo() {
 
 ## Systems Elements
 function s() { 
-  $HOME/sigv/nbcli/max/s "$*" 
+  $HOME/nbcli-config/nbcli/max/s "$*" 
   }
 function zap() { 
   s sys script delete "$@" 
   }
 function o() { 
-  $HOME/sigv/nbcli/o "$@" 
+  $HOME/nbcli-config/nbcli/o "$@" 
   }
 function shiftr() { 
-	$HOME/sigv/nbcli/shiftr "$*" 
+	$HOME/nbcli-config/nbcli/shiftr "$*" 
 }
 
 ## nbcli Core Elements
 function automata() {
-	$HOME/sigv/nbcli/automata "$@" & 
+	$HOME/nbcli-config/nbcli/automata "$@" & 
 }
 function timer() {
-	$HOME/sigv/nbcli/timer "$@" 
+	$HOME/nbcli-config/nbcli/timer "$@" 
 }
 function rand() {
-	$HOME/sigv/nbcli/rand "$@" 
+	$HOME/nbcli-config/nbcli/rand "$@" 
 }
 function randx() {
-	$HOME/sigv/nbcli/randx "$@" 
+	$HOME/nbcli-config/nbcli/randx "$@" 
 }
 function count() {
-	$HOME/sigv/nbcli/count "$@" 
+	$HOME/nbcli-config/nbcli/count "$@" 
 }
 function gen() {
-	$HOME/sigv/nbcli/gen "$@" & 
+	$HOME/nbcli-config/nbcli/gen "$@" & 
 }
 function rnr() {
-	$HOME/sigv/nbcli/rnr "$@" 
+	$HOME/nbcli-config/nbcli/rnr "$@" 
 }
 function rsr() {
-	$HOME/sigv/nbcli/rsr "$@" 
+	$HOME/nbcli-config/nbcli/rsr "$@" 
 }
 
 function qrec() {
@@ -299,6 +299,6 @@ function qrec() {
   fi
 }
 
-export PATH=$PATH:$HOME/sigv/nbcli:$HOME/sigv/nbcli/max
+export PATH=$PATH:$HOME/nbcli-config/nbcli:$HOME/nbcli-config/nbcli/max
 
 
