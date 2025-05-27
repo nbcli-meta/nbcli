@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# The following is the configuration of nbcli to sigv
+
 function nbcli() {
   cd "$HOME/nbcli-config/nbcli"
   ls
