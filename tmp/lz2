@@ -1,0 +1,16 @@
+lz data .44
+lz data .47
+lz val .07
+lz val .08
+lz val .05
+lz mesh scale 0.5
+lz val 1
+lz val .01
+lz val .05
+lz val .1
+lz mesh position 0 0 0
+lz dt .005
+lz dt .003
+lz dt .001
+lz data .347
+sleep 10

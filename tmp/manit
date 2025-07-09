@@ -1,0 +1,10 @@
+#!/bin/bash
+
+cd $HOME/sigv/nbcli/man
+
+pod2man $1 > $1.1
+pod2html $1 > $1.html
+
+cp $1.1 /usr/local/share/man/man1/$1.1
+gzip /usr/local/share/man/man1/$1.1
+

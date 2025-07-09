@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Noise function
+while getopts c:a:d: flag
+do
+  case "${flag}" in
+    c) colour=${OPTARG};;
+    a) amplitude=${OPTARG};;
+    d) duration=${OPTARG};;
+  esac
+done
+ch 11 42 60 "$duration";
+echo "Duration: $duration";

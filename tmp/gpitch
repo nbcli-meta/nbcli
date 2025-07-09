@@ -1,0 +1,3 @@
+#!/bin/bash
+
+morpha "grain pitch" 250 1 -50 25

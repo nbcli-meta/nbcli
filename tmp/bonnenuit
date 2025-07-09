@@ -1,0 +1,3 @@
+#!/bin/bash
+
+geo anim moveto -.8 0 0 5

@@ -1,0 +1,13 @@
+#!/bin/bash
+
+
+
+proc anim turn 0 2 0
+sleep 3
+proc mesh draw_mode polygon
+sleep 5
+proc anim scaleto 1 1 1 5
+proc anim turn 0 .05 0
+sleep 4
+proc anim scaleto .5 .5 .5 5
+

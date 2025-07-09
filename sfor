@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# C-style Bash loop
+for ((i = 1 ; i <= $1 ; i++)); do $2; sleep $3; done
+

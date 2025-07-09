@@ -1,0 +1,14 @@
+#!/bin/bash
+
+camera anim moveto .3 .25 2 4
+sleep 4
+camera anim moveto 0 .25 2 4
+sleep 4
+camera anim moveto 0 .25 1.25 4
+sleep 4
+camera anim moveto .1 .25 1.25 2
+sleep 2
+camera anim moveto -.1 .25 0 4
+sleep 4
+camera anim moveto 0 .25 2 5
+

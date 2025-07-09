@@ -1,0 +1,11 @@
+#!/bin/bash
+
+x = $1
+
+function Listem {
+ for arg; do
+  echo "arg to func: '$arg'"
+ done
+ echo "Inside func: \$0 is still: '$0'"
+}
+

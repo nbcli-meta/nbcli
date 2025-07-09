@@ -1,0 +1,8 @@
+#!/bin/bash
+
+camera anim moveto 0 0 .25 5
+sleep 10
+camera anim moveto 0 0 2 5
+sleep 7
+camera anim moveto 0 0 4 10
+sleep 20

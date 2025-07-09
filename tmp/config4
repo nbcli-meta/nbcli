@@ -1,0 +1,16 @@
+0, spk 0 read /Users/mgordon/Estuary/static/samples/ab/010_ab2snare1.wav;
+1, spk 1 read /Users/mgordon/Estuary/static/samples/feel/sub.wav;
+2, spk 2 read /Users/mgordon/Estuary/static/samples/ade/003_abt.wav;
+3, spk 3 read /Users/mgordon/Estuary/static/samples/ade/009_rise.wav;
+4, spk 4 read /Users/mgordon/_studio/material/sound-clips/freesound/crolag.wav;
+5, spk 5 read /Users/mgordon/_studio/material/sound-clips/freesound/forest-chimes.mp3;
+6, spk 6 read /Users/mgordon/_studio/material/sound-clips/freesound/riverside.wav;
+7, spk 7 read /Users/mgordon/orca-play/media/dark/kick-up.wav;
+8, spk 8 read /Users/mgordon/orca-play/media/dark/kick-down.wav;
+9, spk 9 read /Users/mgordon/orca-play/media/dark/kick.wav;
+10, spk 10 read /Users/mgordon/orca-play/media/dark/snare-down.wav;
+11, spk 11 read /Users/mgordon/orca-play/media/dark/snare-up.wav;
+12, spk 12 read /Users/mgordon/orca-play/media/dark/snare.wav;
+13, spk 13 read /Users/mgordon/orca-play/media/dark/tom.wav;
+14, spk 14 read /Users/mgordon/orca-play/media/dark/synth-C2.wav;
+15, spk 15 read /Users/mgordon/orca-play/media/dark/synth-C3.wav;

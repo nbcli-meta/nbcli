@@ -1,0 +1,1 @@
+b2 anim turn `randx -2 2` 0 0; sleep 2; b2 anim turn `randx -2 2` 0 0; sleep 3; b2 anim turn `randx -2 2` 0 0

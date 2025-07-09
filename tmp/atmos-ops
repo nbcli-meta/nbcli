@@ -1,0 +1,15 @@
+geo anim turn 0 0 0
+geo reset
+geo mesh scale 1 1 1
+geo reset
+geo anim scaleto 4.95 2.8 1 20
+fpic 2 read $models/../hdri/smog6.exr
+geo material heightmap_texture
+geo mesh poly_mode 0 0
+new light 0 0 light
+light activate 0
+light rclr 1
+light diffuse 1 1 1
+geo material specular_model phong
+sleep 1
+geo material diffuse_texture tex1

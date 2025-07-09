@@ -1,0 +1,15 @@
+/*RUN*/
+
+s.boot;
+
+(
+MIDIIn.connect;
+Server.default.options.device_("Virtual Audio Loops");
+s.options.sampleRate = 44100;
+
+~midiOut = MIDIOut.newByName("OP-Z", "OP-Z");
+~dirt.soundLibrary.addMIDI(\opz, ~midiOut);
+
+
+
+)

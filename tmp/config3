@@ -1,0 +1,16 @@
+0, spk 1 read /Users/mgordon/Estuary/static/samples/ab/000_ab2closedhh.wav;
+1, spk 2 read /Users/mgordon/Estuary/static/samples/ab/001_ab2crash.wav;
+2, spk 3 read /Users/mgordon/Estuary/static/samples/ab/002_ab2hit1.wav;
+3, spk 4 read /Users/mgordon/Estuary/static/samples/ab/003_ab2hit2.wav;
+4, spk 5 read /Users/mgordon/Estuary/static/samples/ab/004_ab2kick1.wav;
+5, spk 6 read /Users/mgordon/Estuary/static/samples/ab/005_ab2kick2.wav;
+6, spk 7 read /Users/mgordon/Estuary/static/samples/ab/006_ab2openhh.wav;
+7, spk 8 read /Users/mgordon/Estuary/static/samples/ab/007_ab2perc1.wav;
+8, spk 9 read /Users/mgordon/Estuary/static/samples/ab/008_ab2perc2.wav;
+9, spk 10 read /Users/mgordon/Estuary/static/samples/ab/009_ab2ride.wav;
+10, spk 11 read /Users/mgordon/Estuary/static/samples/ab/010_ab2snare1.wav;
+11, spk 12 read /Users/mgordon/Estuary/static/samples/ab/011_ab2snare2.wav;
+12, spk 13 read /Users/mgordon/Estuary/static/samples/alex/000_drumx1.wav;
+13, spk 14 read /Users/mgordon/Estuary/static/samples/alex/001_drumx2.wav;
+14, spk 15 read /Users/mgordon/Estuary/static/samples/arp/000_arp2.wav;
+15, spk 16 read /Users/mgordon/Estuary/static/samples/arp/001_arp.wav;

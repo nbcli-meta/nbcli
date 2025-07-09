@@ -1,0 +1,16 @@
+0, spk 1 read $HOME/Estuary/static/samples/feel/sub.wav;
+1, spk 2 read $HOME/Estuary/static/samples/ade/003_abt.wav;
+2, spk 3 read $HOME/Estuary/static/samples/ade/009_rise.wav;
+3, spk 4 read $HOME/Estuary/static/samples/bass1/18090__daven__15-sb-bass-hit-c.wav;
+4, spk 5 read $HOME/Estuary/static/samples/bass3/83245__zgump__bass-0201.wav;
+5, spk 6 read $HOME/Estuary/static/samples/crow/000_crow.wav;
+6, spk 7 read $HOME/Estuary/static/samples/bass3/83245__zgump__bass-0201.wav;
+7, spk 8 read $HOME/Estuary/static/samples/bin/000_bin1.wav;
+8, spk 9 read $HOME/Estuary/static/samples/breaks152/000_AMEN.wav;
+9, spk 10 read $HOME/Estuary/static/samples/breaks157/000_PLEAD.wav;
+10, spk 11 read $HOME/Estuary/static/samples/bubble/005_bub5.wav;
+11, spk 12 read $HOME/Estuary/static/samples/cc/CSHD8.wav;
+12, spk 13 read $HOME/Estuary/static/samples/world/bd.wav;
+13, spk 14 read $HOME/Estuary/static/samples/sitar/002_d_maj_sitar_chordc.wav;
+14, spk 15 read $HOME/Estuary/static/samples/sitar/003_d_maj_sitar_chordd.wav;
+15, spk 16 read $HOME/Estuary/static/samples/sitar/007_d_minor_sitar_chordc.wav;

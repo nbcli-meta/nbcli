@@ -1,0 +1,8 @@
+#!/bin/bash
+while true; do
+    printf "%${COLUMNS}s"
+    echo -ne "\r"
+    tail -n $(tput cols) $1 | spark | tr -d "\n"
+    echo -ne "\r"
+    sleep 1
+done

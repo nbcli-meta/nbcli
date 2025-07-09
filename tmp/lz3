@@ -1,0 +1,16 @@
+clear
+lz anim scaleto .25 .25 .25 15
+sleep 3
+lz anim scaleto .5 .5 .5 20
+lz anim turn .4 0 0
+sleep 10
+lz anim turn 0 0 0
+sleep 3
+lz mesh point_size 15
+new light 0 0 light
+light activate 0
+sleep 3
+light type hemisphere
+lz anim scaleto 1 1 1 50
+lz reset
+sleep 4

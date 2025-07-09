@@ -1,0 +1,16 @@
+#!/bin/bash
+
+proc anim turn 0 3 -.5
+sleep 10
+proc anim turn .3 0 0
+sleep 5
+proc mesh draw_mode line_loop
+sleep 3
+proc anim scaleto 0.5 0.5 0.5 50
+proc reset
+proc anim turn 0 .4 0
+proc period ^ 0.2 10000
+proc gs shape cone
+sleep 10
+proc anim turn 0 0 0
+proc aio 0

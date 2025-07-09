@@ -1,0 +1,12 @@
+ch $(rand2 0 15) $(rand2 32 64) 60 .5
+ch $(rand2 0 15) $(rand2 32 64) 60 .5
+sleep 1
+ch $(rand2 0 15) $(rand2 32 64) 60 .5
+ch $(rand2 0 15) $(rand2 32 64) 60 .5
+ch $(rand2 0 15) $(rand2 32 64) 60 .5
+ch $(rand2 0 15) $(rand2 32 64) 60 .5
+ch $(rand2 0 15) $(rand2 32 64) 60 .5
+ch $(rand2 0 15) $(rand2 32 64) 60 .25
+ch $(rand2 0 15) $(rand2 32 64) 60 .5
+ch $(rand2 0 15) $(rand2 32 64) 60 .5
+ch $(rand2 0 15) $(rand2 32 64) 60 .25

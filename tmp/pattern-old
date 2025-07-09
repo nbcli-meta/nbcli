@@ -1,0 +1,98 @@
+#!/bin/bash
+
+l1=$(rand2 0 12)
+l2=$(rand2 12 24)
+l3=$(rand2 24 26)
+l4=$(rand2 36 48)
+l5=$(rand2 48 60)
+
+case "$1" in
+  "xylo") chann="ch 12"
+    case "$4" in
+      "1" ) iter $2 $3 "$chann $l1 60 $3" ;;
+      "2" ) iter $2 $3 "$chann $l2 60 $3" ;;
+      "3" ) iter $2 $3 "$chann $l3 60 $3" ;;
+      "4" ) iter $2 $3 "$chann $l4 60 $3" ;;
+    esac
+  ;;
+  "pipes") chann="ch 14"
+    case "$4" in
+      "1" ) iter $2 $3 "$chann $l1 60 $3" ;;
+      "2" ) iter $2 $3 "$chann $l2 60 $3" ;;
+      "3" ) iter $2 $3 "$chann $l3 60 $3" ;;
+      "4" ) iter $2 $3 "$chann $l4 60 $3" ;;
+    esac
+  ;;
+  "zipper") chann="ch 11"
+    case "$4" in
+      "1" ) iter $2 $3 "$chann $l1 60 $3" ;;
+      "2" ) iter $2 $3 "$chann $l2 60 $3" ;;
+      "3" ) iter $2 $3 "$chann $l3 60 $3" ;;
+      "4" ) iter $2 $3 "$chann $l4 60 $3" ;;
+    esac
+  ;;
+  "wadar") chann="ch 10"
+    case "$4" in
+      "1" ) iter $2 $3 "$chann $l1 60 $3" ;;
+      "2" ) iter $2 $3 "$chann $l2 60 $3" ;;
+      "3" ) iter $2 $3 "$chann $l3 60 $3" ;;
+      "4" ) iter $2 $3 "$chann $l4 60 $3" ;;
+    esac
+  ;;
+  "deep") chann="ch 9"
+    case "$4" in
+      "1" ) iter $2 $3 "$chann $l1 60 $3" ;;
+      "2" ) iter $2 $3 "$chann $l2 60 $3" ;;
+      "3" ) iter $2 $3 "$chann $l3 60 $3" ;;
+      "4" ) iter $2 $3 "$chann $l4 60 $3" ;;
+    esac
+  ;;
+  "dopple") chann="ch 8"
+    case "$4" in
+      "1" ) iter $2 $3 "$chann $l1 60 $3" ;;
+      "2" ) iter $2 $3 "$chann $l2 60 $3" ;;
+      "3" ) iter $2 $3 "$chann $l3 60 $3" ;;
+      "4" ) iter $2 $3 "$chann $l4 60 $3" ;;
+    esac
+  ;;
+  "critter") chann="ch 7"
+    case "$4" in
+      "1" ) iter $2 $3 "$chann $l1 60 $3" ;;
+      "2" ) iter $2 $3 "$chann $l2 60 $3" ;;
+      "3" ) iter $2 $3 "$chann $l3 60 $3" ;;
+      "4" ) iter $2 $3 "$chann $l4 60 $3" ;;
+    esac
+  ;;
+  "beem") chann="ch 6"
+    case "$4" in
+      "1" ) iter $2 $3 "$chann $l1 60 $3" ;;
+      "2" ) iter $2 $3 "$chann $l2 60 $3" ;;
+      "3" ) iter $2 $3 "$chann $l3 60 $3" ;;
+      "4" ) iter $2 $3 "$chann $l4 60 $3" ;;
+    esac
+  ;;
+  "tone") chann="ch 5"
+    case "$4" in
+      "1" ) iter $2 $3 "$chann $l1 60 $3" ;;
+      "2" ) iter $2 $3 "$chann $l2 60 $3" ;;
+      "3" ) iter $2 $3 "$chann $l3 60 $3" ;;
+      "4" ) iter $2 $3 "$chann $l4 60 $3" ;;
+    esac
+  ;;
+  "tony") chann="ch 4"
+    case "$4" in
+      "1" ) iter $2 $3 "$chann $l1 60 $3" ;;
+      "2" ) iter $2 $3 "$chann $l2 60 $3" ;;
+      "3" ) iter $2 $3 "$chann $l3 60 $3" ;;
+      "4" ) iter $2 $3 "$chann $l4 60 $3" ;;
+    esac
+  ;;
+  "bump") chann="ch 3"
+    case "$4" in
+      "1" ) iter $2 $3 "$chann $l1 60 $3" ;;
+      "2" ) iter $2 $3 "$chann $l2 60 $3" ;;
+      "3" ) iter $2 $3 "$chann $l3 60 $3" ;;
+      "4" ) iter $2 $3 "$chann $l4 60 $3" ;;
+    esac
+  ;;
+esac

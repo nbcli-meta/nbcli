@@ -1,0 +1,3 @@
+#!/bin/bash
+
+morph1 "grain position" 2500 1

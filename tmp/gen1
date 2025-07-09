@@ -1,0 +1,4 @@
+#!/bin/bash
+
+s shiftr publish morphDelta `rsr 1`
+

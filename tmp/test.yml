@@ -1,0 +1,6 @@
+sparklines:
+  - title: CPU usage
+    position: [[0, 0], [38, 16]]
+    rate-ms: 200
+    scale: 0
+    sample: automata 1 'rnr 2' | awk '{print $1}'

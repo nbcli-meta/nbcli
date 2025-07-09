@@ -1,0 +1,26 @@
+#!/bin/bash
+
+new wrld 350 275 jit.world sigv @visible 1 @enable 1 @size 1024 575 @dim 1920 1080 @erase_color 0 0 0 1 @fsaa 1 
+new mtr 381 397 send metro 
+s sys script connect wrld 1 mtr 0
+
+new camera 500 253 jit.gl.camera @position 0 0 4
+new movie 500 198 jit.movie @output_texture 0
+s sys script connect movie 0 wrld 0
+
+new movie_route 500 169 route movie
+s sys script connect movie_route 0 movie 0
+new rcoda 500 133 r coda
+s sys script connect rcoda 0 movie_route 0
+
+new monde 500 295 jit.gl.node sigv @name monde
+
+new aio 99 369 aio
+new geo 204 394 geo
+new grain 204 419 grain
+new light 99 444 light
+new tilde 99 394 tilde
+new bfg 204 369 bfg
+new terminal 99 419 terminal
+new tex0 99 469 tex0
+

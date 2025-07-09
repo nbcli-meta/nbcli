@@ -1,0 +1,14 @@
+
+aio pwr 1
+new nature 0 0 nature
+new midi 0 0 midi
+new lz 0 0 lz
+lz data .6
+tilde set midi vst1 midievent
+tilde src lzdata
+tilde link 1
+lz activate 1
+lz sample 1
+new light 0 0 light
+lz mesh point_size 3.5
+lz dt .009

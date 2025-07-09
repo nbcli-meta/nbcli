@@ -1,0 +1,9 @@
+textboxes:
+  - title: Oracle Database Status
+    position: [[0, 15], [49, 15]]
+    rate-ms: 1000
+    sample: ps -ef|grep pmon
+  - title: Listener Status 
+    position: [[0, 30],[49, 15]]
+    rate-ms: 1000 
+    sample: ps -ef|grep tns

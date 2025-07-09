@@ -1,0 +1,5 @@
+#!/bin/bash
+
+shapes=("cube"," sphere", "torus", "opencylinder", "
+cylinder", "cone")
+geo gs1 shape $shapes[$(rand2 0 5)]

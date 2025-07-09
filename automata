@@ -1,0 +1,7 @@
+#!/bin/bash
+
+while $1
+do
+  $1
+  sleep $2
+done

@@ -1,0 +1,10 @@
+#!/bin/bash
+
+geo anim scaleto 3.5 2.25 1 10
+sleep 10
+fpic read $arboreal/Wind.tif
+sleep 3
+fpic bang
+sleep 2
+geo material diffuse_texture tex0
+geo mesh poly_mode 0 0

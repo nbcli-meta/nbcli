@@ -1,0 +1,16 @@
+0, spk 1 read /Users/mgordon/Estuary/static/samples/electro1/005_et1kick1.wav;
+1, spk 2 read /Users/mgordon/Estuary/static/samples/electro1/001_et1crash.wav;
+2, spk 3 read /Users/mgordon/Estuary/static/samples/fire/fire.wav;
+3, spk 4 read /Users/mgordon/Estuary/static/samples/tacscan/000_01.wav;
+4, spk 5 read /Users/mgordon/Estuary/static/samples/east/000_nipon_wood_block.wav;
+5, spk 6 read /Users/mgordon/Estuary/static/samples/east/001_ohkawa_mute.wav;
+6, spk 7 read /Users/mgordon/Estuary/static/samples/east/002_ohkawa_open.wav;
+7, spk 8 read /Users/mgordon/Estuary/static/samples/east/003_shime_hi.wav;
+8, spk 9 read /Users/mgordon/Estuary/static/samples/east/004_shime_hi_2.wav;
+9, spk 10 read /Users/mgordon/Estuary/static/samples/east/005_shime_mute.wav;
+10, spk 11 read /Users/mgordon/Estuary/static/samples/east/006_taiko_1.wav;
+11, spk 12 read /Users/mgordon/Estuary/static/samples/east/007_taiko_2.wav;
+12, spk 13 read /Users/mgordon/Estuary/static/samples/east/008_taiko_3.wav;
+13, spk 14 read /Users/mgordon/Estuary/static/samples/v/000_b_blipp01.wav;
+14, spk 15 read /Users/mgordon/Estuary/static/samples/v/003_v_perc5.wav;
+15, spk 16 read /Users/mgordon/Estuary/static/samples/feel/sub.wav;

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+geo anim moveto -.8 0 0 5
+sleep 3
+geo anim moveto 0 0 0 5
+sleep 4
+geo anim moveto .8 0 0 5

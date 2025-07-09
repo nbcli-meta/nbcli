@@ -1,0 +1,7 @@
+barcharts:
+  - title: Automatas
+    rate-ms: 500        # sampling rate, default = 1000
+    scale: 0            # number of digits after sample decimal point, default = 1
+    items:
+      - label: xylo
+        sample: pattern xylo 1 .5 4

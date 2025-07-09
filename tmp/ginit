@@ -1,0 +1,8 @@
+#!/bin/bash
+
+sfor 25 ./tmp/gden 5
+sfor 10 ./tmp/gsize 5
+automata "./tmp/gpos"
+automata "./tmp/gpitch"
+
+
