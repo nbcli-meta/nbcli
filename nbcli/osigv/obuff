@@ -1,9 +1,0 @@
-| ß | BUFF | Notation |
-| --- | --- | --- |
-| # | start buffer | | 5 |
-| l | loop buffer | | l 0 |
-| s | set buffer | | s 3 |
-| p | pause buffer | | p  |
-| r | resume buffer | | r |
-| o | select sample | | o 4 |
-| m | midi connect | | m 0 |

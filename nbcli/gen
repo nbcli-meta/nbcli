@@ -1,9 +1,0 @@
-#!/bin/bash
-
-seq $1 $2 $3 | \
-while read
-do
-$5
-sleep $4
-done
-

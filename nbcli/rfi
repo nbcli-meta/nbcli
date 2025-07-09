@@ -1,4 +1,0 @@
-#!/bin/bash
-
-while read -r line; do echo $line; sleep $2;  done < $1
-

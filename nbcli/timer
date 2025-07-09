@@ -1,5 +1,0 @@
-#!/bin/bash
-
-START="$(date +%s)"
-
-for ((i = 1 ; i <= $1 ; i++)); do DURATION=$[ $(date +%s) - ${START} ]; echo ${DURATION};  sleep 1;  done

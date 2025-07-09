@@ -1,4 +1,0 @@
-#!/bin/bash
-
-# echo $( $SRANDOM % ${2} + ${1} )
-echo $( jot -p 0 -r 1 0 $1 )
