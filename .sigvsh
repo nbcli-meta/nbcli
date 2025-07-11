@@ -1,0 +1,306 @@
+#!/bin/bash
+
+# The following is the configuration of nbcli to sigv:
+
+function nbcli() {
+  cd "$HOME/nbcli"
+  ls
+}
+
+# Quit sigv standalone
+function qs() {
+  killall sigv
+}
+
+## o-sigv operators ##
+function oanim() {
+  cat "$HOME/nbcli/osigv/oanim"
+}
+function oaudio() {
+  cat "$HOME/nbcli/osigv/oaudio"
+}
+function ochao() {
+  cat "$HOME/nbcli/osigv/obuff"
+}
+function ochao() {
+  cat "$HOME/nbcli/osigv/ochao"
+}
+function olights() {
+  cat "$HOME/nbcli/osigv/olights"
+}
+function omat() {
+  cat "$HOME/nbcli/osigv/omat"
+}
+function oserial() {
+  cat "$HOME/nbcli/osigv/oserial"
+}
+function osystem() {
+  cat "$HOME/nbcli/osigv/osystem"
+}
+function otrans() {
+  cat "$HOME/nbcli/osigv/otrans"
+}
+
+## Reset sigv
+function rst() {
+  $HOME/nbcli/max/rst "$@"
+  }
+
+## sigv messengers
+function typo() {
+  $HOME/nbcli/max/typo "$@"
+  }
+function eca() {
+  $HOME/nbcli/max/eca "$@"
+  }
+function aio() {
+  $HOME/nbcli/max/aio "$@" 
+  }
+function b0() {
+  $HOME/nbcli/max/b0 "$@" 
+  }
+function b1() {
+  $HOME/nbcli/max/b1 "$@" 
+  }
+function b2() {
+  $HOME/nbcli/max/b2 "$@" 
+  }
+function b3() {
+  $HOME/nbcli/max/b3 "$@" 
+  }
+function b4() {
+  $HOME/nbcli/max/b4 "$@"
+  }
+function b5() {
+  $HOME/nbcli/max/b5 "$@"
+  }
+function b6() {
+  $HOME/nbcli/max/b6 "$@"
+  }
+function b7() {
+  $HOME/nbcli/max/b7 "$@"
+  }
+function bfg() {
+  $HOME/nbcli/max/bfg "$@" 
+  }
+function biomes() {
+  $HOME/nbcli/max/biomes "$@" 
+  }
+function camera() {
+  $HOME/nbcli/max/camera "$@" 
+  }
+function cv() {
+  $HOME/nbcli/max/cv "$@" 
+  }
+function fpic() {
+  $HOME/nbcli/max/fpic "$@" 
+  }
+function frag() {
+  $HOME/nbcli/max/frag "$@"
+  }
+function fx() {
+  $HOME/nbcli/max/fx "$@" 
+  }
+function geo() {
+  $HOME/nbcli/max/geo "$@" 
+  }
+function grain() {
+  $HOME/nbcli/max/grain "$@" 
+  }
+function graph() {
+  $HOME/nbcli/max/graph "$@" 
+  }
+function lfo() {
+  $HOME/nbcli/max/lfo "$@" 
+  }
+function light() {
+  $HOME/nbcli/max/light "$@" 
+  }
+function lz() {
+  $HOME/nbcli/max/lz "$@" 
+  }
+function lttp() {
+  $HOME/nbcli/max/lttp "$@" 
+  }
+function markov() {
+  $HOME/nbcli/max/markov "$@" 
+  }
+function midi() {
+  $HOME/nbcli/max/midi "$@" 
+  }
+function model() {
+  $HOME/nbcli/max/model "$@" 
+  }
+function monde() {
+  $HOME/nbcli/max/monde "$@" 
+  }
+function morph() {
+  $HOME/nbcli/max/morph "$@" 
+  }
+function morph0() {
+  $HOME/nbcli/max/morph0 "$@" 
+  }
+function morph0() {
+  $HOME/nbcli/max/morph0 "$@" 
+  }
+function morpha() {
+  $HOME/nbcli/max/morpha "$@" 
+  }
+function morph3() {
+  $HOME/nbcli/max/morph3 "$@" 
+  }
+function nature() {
+  $HOME/nbcli/max/nature "$@" 
+  }
+function new() {
+  $HOME/nbcli/max/new "$@" 
+  }
+function nurbs() {
+  $HOME/nbcli/max/nurbs "$@" 
+  }
+function particles() {
+  $HOME/nbcli/max/particles "$@" 
+  }
+function plato() {
+  $HOME/nbcli/max/plato "$@" 
+  }
+function proc() {
+  $HOME/nbcli/max/proc "$@" 
+  }
+function rossler() {
+  $HOME/nbcli/max/rossler "$@" 
+  }
+function shady() {
+  $HOME/nbcli/max/shady "$@"
+  }
+function sketch() {
+  $HOME/nbcli/max/sketch "$@" 
+  }
+function sky() {
+  $HOME/nbcli/max/sky "$@" 
+  }
+function som() {
+  $HOME/nbcli/max/som "$@" 
+  }
+function specs() {
+  $HOME/nbcli/max/specs "$@" 
+  }
+function spk() {
+  $HOME/nbcli/max/spk "$@" 
+  }
+function synth() {
+  $HOME/nbcli/max/synth "$@" 
+  }
+function terra() {
+  $HOME/nbcli/max/terra "$@" 
+  }
+# function ~() {
+#   $HOME/nbcli/max/~ "$@" 
+#   }
+function tilde() {
+  $HOME/nbcli/max/tilde "$@"
+  }
+function vert() {
+  $HOME/nbcli/max/vert "$@"
+  }
+function wave() {
+  $HOME/nbcli/max/wave "$@" 
+  }
+function wrld() {
+  $HOME/nbcli/max/wrld "$@" 
+  }
+
+## sigv cli
+function sigv() {
+  $HOME/nbcli/sigv "$@"
+}
+
+## Utilities
+### Clear history buffer
+function clearbuff() {
+  clear && fc -p
+}
+
+### Scan/Read a file
+function rfi() {
+  $HOME/nbcli/rfi "$@"
+}
+
+### Window Title
+function window() {
+  echo -n -e "\033]0;$1\007"
+}
+
+### Random Password Generator
+function rpg() {
+  date | md5 | head -c $1 | pbcopy ; echo
+  echo "copied to clipboard..."
+}
+
+### QR code utils
+function qr() {
+  if [[ "$1" == "-r" ]]
+  then
+    zbarimg $2
+  else
+    qrencode $1 -o $2
+  fi
+}
+
+### History of commands
+function histo() {
+  history | cut -c 8-
+}
+
+## Systems Elements
+function s() { 
+  $HOME/nbcli/max/s "$*" 
+  }
+function zap() { 
+  s sys script delete "$@" 
+  }
+function o() { 
+  $HOME/nbcli/o "$@" 
+  }
+function shiftr() { 
+	$HOME/nbcli/shiftr "$*" 
+}
+
+## nbcli Core Elements
+function automata() {
+	$HOME/nbcli/automata "$@" & 
+}
+function timer() {
+	$HOME/nbcli/timer "$@" 
+}
+function rand() {
+	$HOME/nbcli/rand "$@" 
+}
+function randx() {
+	$HOME/nbcli/randx "$@" 
+}
+function count() {
+	$HOME/nbcli/count "$@" 
+}
+function gen() {
+	$HOME/nbcli/gen "$@" & 
+}
+function rnr() {
+	$HOME/nbcli/rnr "$@" 
+}
+function rsr() {
+	$HOME/nbcli/rsr "$@" 
+}
+
+function qrec() {
+  if [[ "$1" == "-s" ]]
+  then
+  osascript -e 'tell application "QuickTime Player" to activate' -e 'tell application "QuickTime Player" to start (new screen recording)'
+  else
+  osascript -e 'tell application "QuickTime Player" to activate' -e 'tell application "QuickTime Player" to start (new audio recording)'
+  fi
+}
+
+export PATH=$PATH:$HOME/nbcli:$HOME/nbcli/max
+
+
