@@ -1,5 +1,8 @@
 # nbcli
+<a href="https://doi.org/10.5281/zenodo.16166896"><img src="https://zenodo.org/badge/915795853.svg" alt="DOI"></a>
+
 Repository for nbcli (nothing but CLI) meta-instrument project at https://nbcli.space which is developed for use with [sigv](https://magfoto.itch.io/sigv), a macOS tool.
+
 
 ## Installation
 [sigv by magfoto](https://magfoto.itch.io/sigv)    
