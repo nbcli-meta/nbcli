@@ -1,5 +1,5 @@
 # nbcli
-Repository for nbcli (nothing but CLI) meta-instrument project at https://nbcli.space which is currently being developed for use with [sigv](https://magfoto.itch.io/sigv), a macOS tool.
+Repository for nbcli (nothing but CLI) meta-instrument project at https://nbcli.space which is developed for use with [sigv](https://magfoto.itch.io/sigv), a macOS tool.
 
 ## Installation
 [sigv by magfoto](https://magfoto.itch.io/sigv)    
