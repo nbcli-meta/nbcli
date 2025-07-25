@@ -1,26 +1,29 @@
 # nbcli
 <a href="https://doi.org/10.5281/zenodo.16166896"><img src="https://zenodo.org/badge/915795853.svg" alt="DOI"></a>
 
-Repository for nbcli (nothing but CLI) meta-instrument project at https://nbcli.space which is developed for use with [sigv](https://magfoto.itch.io/sigv), a macOS tool.
+Repository for nbcli (nothing but CLI) meta-instrument project at https://nbcli.space which is developed for use with [sigv](https://magfoto.itch.io/sigv).
 
 
 ## Installation
 [sigv by magfoto](https://magfoto.itch.io/sigv)    
    
-1. Download the above sigv application which should be be a blue "Download" button at the bottom of the page (which will be a zip of an .app file)   
-2. Extract the zip to the /Applications folder of your macOS.   
-3. Double-click the sigv.app, and it should show a privacy notice window (this indicates you need to give it permission to install)   
-4. To give permission to install, open the "Privacy and Security" section your "Settings" app on your mac (CMD + Spacebar, type Privacy & Settings, hit enter)   
-5. Keeping this window open, double-click sigv.app again, notice will come up, but after closing, an "Open Anyway" button will show in your Privacy and Settings window giving you access to permit sigv to launch.   
+1. Download the above sigv application which should be be a blue "Download" button at the bottom of the page (which will be a zip of an .app file for macOS or an .exe for Windows).   
+2. Extract the zip to the /Applications folder of your macOS or anywhere for Windows users.   
+3. Double-click the sigv.app (macOS) or sigv.exe (Windows), and it should show a privacy notice window (this indicates you need to give it permission to install)   
+4. To give permission to install, open the "Privacy and Security" section your "Settings" app on your mac (CMD + Spacebar, type Privacy & Settings, hit enter). For Windows users this comes up as a simple permission for administrator.
+5. (For macOS users) Keeping this window open, double-click sigv.app again, notice will come up, but after closing, an "Open Anyway" button will show in your Privacy and Settings window giving you access to permit sigv to launch.   
    
    
 ### Install nbcli   
+(for Windows users, this part of the installation may not function fully)
    
 Now that you have the sigv desktop application installed, we can now turn your attention to your terminal window (CMD + Spacebar, start typing terminal.app, hit enter/return). We will enter the following command that will install nbcli and its dependencies, after which it will add the sigv configuration file to your shell (via ~/.zprofile):   
 ```
 curl -s https://gist.githubusercontent.com/magfoto/5381625aa8309762f72a3a2feafaf453/raw/8a58e111c1f173fcf0100f37d12e4a99947226d3/nbcli-install.sh  | sh
 ```
-   
+
+* For Windows users, you may attempt the above process if you have successfully installed Homebrew on your computer: https://brew.sh/
+
 Run sigv by entering the command in terminal:   
 ```
 sigv
