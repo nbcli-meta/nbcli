@@ -19,7 +19,7 @@ Repository for nbcli (nothing but CLI) meta-instrument project at https://nbcli.
    
 Now that you have the sigv desktop application installed, we can now turn your attention to your terminal window (CMD + Spacebar, start typing terminal.app, hit enter/return). We will enter the following command that will install nbcli and its dependencies, after which it will add the sigv configuration file to your shell (via ~/.zprofile):   
 ```
-curl -s https://gist.githubusercontent.com/magfoto/5381625aa8309762f72a3a2feafaf453/raw/8a58e111c1f173fcf0100f37d12e4a99947226d3/nbcli-install.sh  | sh
+curl -s https://gist.githubusercontent.com/magfoto/5381625aa8309762f72a3a2feafaf453/raw/04f22f4586c58eb004bcdd826dba014740cd58aa/nbcli-install.sh  | sh
 ```
 
 * For Windows users, you may attempt the above process if you have successfully installed Homebrew on your computer: https://brew.sh/
